@@ -1,0 +1,29 @@
+# Data (keep folder structure, ignore contents)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Local databases
+*.duckdb
+*.db
+*.sqlite
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
